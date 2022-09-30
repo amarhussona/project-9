@@ -15,13 +15,13 @@ Install JDK due to jenkins being a java application:
 ![jdk](./images/03_install_jdk.png)
 
 Install Jenkins:
-
-<!-- wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+```
+wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
 sudo sh -c 'echo deb https://pkg.jenkins.io/debian-stable binary/ > \
     /etc/apt/sources.list.d/jenkins.list'
 sudo apt update
-sudo apt-get install jenkins -->
-
+sudo apt-get install jenkins
+```
 ![install jenkins](./images/04_install_jenkins.png)
 
 Make sure Jenkins is up and running:
